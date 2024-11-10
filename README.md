@@ -2,6 +2,7 @@
 
 HTML, CSS, Tailwind (Grid y Flex)
 
+Maquetación en base a un diseño de Figma y creación de diseño responsive (solo Home y About)
 
 ## 🛠️ Configuración
 
@@ -15,4 +16,6 @@ https://www.figma.com/design/si4kUrFLOFEdNGedH6glsE/Gaming-Platform---Web-Design
 
 
 ## 👓 Vista previa
+
+
 
