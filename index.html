@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projecte 1</title>
+  <link href="output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fuente Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"/>
+
+</head>
+
+<body class="bg-gradient-to-b from-black to-[#1c110f] text-white font-Poppins font-normal">
+
+  <!-- parte superior -->
+  <header class="mb-32">
+    <!-- barra de navegacion -->
+    <nav class="flex flex-row justify-between my-3 mx-10 content-center">
+      <div><img src="asset/LOGO.png" alt="Logo" class="mt-5"></div>
+      
+      <div class="hidden md:flex md:flex-row justify-end w-full">
+        <ul class="flex flex-row lg:gap-x-24 md:gap-x-14 items-center text-[16px] ">
+          <li class="after:content-[url('./asset/line.png')] after:block after:-ml-3 mt-5"><a href="/index.html" class="link">Home</a></li>
+          <li><a href="/about.html" class="link">About us</a></li>
+          <li><a href="" class="link">Portfolio</a></li>
+          <li><a href="" class="link">News</a></li>
+        </ul>
+        <button class="ml-10 mt-3 button rounded-md w-[131.77px] h-[41.34px]">Contact us</button>
+      </div>
+
+    <div class="md:hidden text-link justify-end">
+      <i class="fa-solid fa-bars fa-lg"></i>
+    </div>
+    </nav>
+
+    <!-- columnas con foto e info / en mobile grid-cols-1-->
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <section class="flex flex-col justify-center items-start ml-20  sm:w-[425px] h-[450]">
+        
+        <!-- link de referencia -->
+
+        <p class="font-bold text-[20px] text-link mt-6">3D game Dev </p>
+        <H1 class="font-bold text-[50px] mt-6">Work that we produce for our clients</H1>
+        <p class="mt-10 text-[15px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard.</p>
+        <button class="mt-16 button rounded-3xl text-[16px] w-[176px] h-[47.84px] justify-center flex items-center">Get more details
+        </button>
+      </section>
+
+      
+
+      <section class="ml-3 hidden md:block relative -z-40">
+       
+        <div class="grid grid-cols-2 content-center mt-12 z-0" >
+          <img src="/asset/cry 1.png" alt="Cry" class="w-[101px] h-[99px]">
+          <img src="/asset/unreal 1.png" alt="Unreal" class="w-[59px] h-[64px]">
+        </div>
+        <div class="grid grid-rows-1">
+          <img src="/asset/unity 1.png" alt="Unity" class="w-[96px] h-[30px] absolute left-[-115px] bottom-[250px]">
+        </div>
+        <div>
+          <img src="/asset/joy_stick 1.png" alt="Joystick" class="absolute left-6 bottom-[-70px] ">
+        </div>
+      </section>
+
+    </div>
+  </header>
+
+  <!-- seccion con 4 filas donde pondré el contenido -->
+  <main class="grid-rows-4">
+  
+    
+
+    <!-- Currently Trending Games -->
+    <div class="flex flex-grow justify-between mx-20">
+      <h3 class="subt">Currently Trending Games</h3>
+      <button class="bg-white/[11%] w-[139px] h-[57px] rounded-[10px]">SEE ALL</button>
+    </div>
+
+    <section class="mx-20 mb-36 flex flex-row justify-between gap-2">
+      <!-- primera card -->
+      <article class="content-center">
+        <div class="w-[251px] h-[277px] "><img src="/asset/Img1_home.png" alt="Juego1" class="object-cover w-[251px] h-[277px] rounded-[20px]"></div>
+      <div class="flex flex-row gap-2 content-center justify-center mt-4">
+        <img src="icons/fire 1.png" alt="">
+        <p>40 Followers</p>
+      </div>
+      </article>
+
+        <!-- segunda card -->
+      <article class="content-center">
+        <div class="w-[251px] h-[277px] "><img src="/asset/Imagen2.png" alt="Juego1" class="object-cover w-[251px] h-[277px] rounded-[20px]"></div>
+        <div class="flex flex-row gap-2 content-center justify-center mt-4">
+          <img src="icons/fire 1.png" alt="">
+          <p>40 Followers</p>
+        </div>
+      </article>
+
+         <!-- tercera card -->
+        <article class="content-center">
+          <div class="w-[251px] h-[277px] "><img src="/asset/img3_home.png" alt="Juego1" class="object-cover w-[251px] h-[277px] rounded-[20px]"></div>
+          <div class="flex flex-row gap-2 content-center justify-center mt-4">
+            <img src="icons/fire 1.png" alt="">
+            <p>40 Followers</p>
+          </div>
+        </article>
+  
+  
+
+        <!-- cuarta card -->
+        <article class=" content-center">
+          <div class="w-[251px] h-[277px] "><img src="/asset/Cabecera.png" alt="Juego1" class="object-cover w-[251px] h-[277px] rounded-[20px]"></div>
+          <div class="flex flex-row gap-2 content-center justify-center mt-4">
+            <img src="icons/fire 1.png" alt="">
+            <p>40 Followers</p>
+          </div>
+        </article>
+  
+    </section>
+
+    <!-- seccion de imagen spiderman-->
+    <div class="flex flex-row justify-center mb-20"><h2 class="font-semibold text-[35px] text-center w-[826px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+    </div>
+    
+    <div class="mb-[550px]">
+      <section class="mx-20 mb-20 w-[545px] h-[129px]">
+        <h3 class="subt2 font-semibold">Lorem bla</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+      </section>
+        
+      <div class="flex flex-row justify-start w-full m-20 relative">
+        <img src="asset/puntos.png" alt="style" class="absolute top-[-70px] right-96">
+        <img src="asset/spider.png" alt="spider" class="absolute">
+      </div>
+    </div>
+   
+
+
+
+    <!-- seccion de fondo con imagen e iconos -->
+    <section class="-z-10">
+      <img src="asset/bg_section.png" alt="fondo">
+    </section>
+    
+    <!-- OUR recent projects -->
+  <section class="mt-20">
+    <div class="flex flex-row justify-center mb-20">
+      <h2 class="font-semibold text-[35px] text-center w-[826px]">Our Recent Projects</h2>
+    </div>
+    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+  
+  <article class="flex justify-center content-center my-14 ">
+    <div class="grid grid-rows-3 gap-4">
+      <div class="flex flex-row gap-4">
+        <img src="asset/cards_home/card1.png" alt="">
+        <img src="asset/cards_home/card2.png" alt="">
+        <img src="asset/cards_home/card3.png" alt="">
+      </div>
+      <div class="flex flex-row gap-4">
+        <img src="asset/cards_home/card4.png" alt="">
+        <img src="asset/cards_home/card5.png" alt="">
+        <img src="asset/cards_home/card6.png" alt="">  
+      </div> 
+      <div class="flex justify-center">
+        <button class="bg-white/[11%] w-[139px] h-[57px] rounded-[10px] mt-14">SEE ALL</button></div>
+    </div>
+  </article>
+  
+  </section>
+
+
+    <!-- esto es igual a about -->
+
+    <!-- SUSCRIPCION -->
+    <section class="mx-20 mb-20 w-[545px] h-[129px]">
+      <h3 class="subt2 font-semibold">Lorem bla</h3>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+    </section>
+    
+    <!-- Card de suscripcion -->
+    <section class="flex flex-col md:flex-row mx-20 mb-36 xl:w-[1170px] xl:h-[189px] bg-[#1C140F] rounded-[15px] justify-between gap-10 lg:gap-0">
+      <article class="flex flex-col md:w-1/2 p-8 ml-4">
+        <h3 class="subt2 font-light">Stay in the loop</h3>
+        <p class="text-[17px]">Subscribe to receive the latest news and updates about TDA.
+          We promise not to spam you!</p>
+      </article>
+      <form class="flex flex-row justify-center md:w-1/2">
+        <label for="email" class="hidden">Email</label>
+        <div class="w-11/12 h-14 lg:w-[385.68px] lg:h-[48px] relative my-16">
+          <input type="email" id="email" placeholder="Enter email address" class=" rounded-lg w-full lg:w-[385.68px] lg:h-[48px] text-xs p-6">
+          <button class="bg-[#DC7000] rounded-lg text-[13px] w-[105px] h-[37px] absolute right-[6px] bottom-[6px] content-start border border-black shadow-gray-500 shadow-md">Continue</button>
+        </div>
+      </form> 
+      
+    </section>
+  </main>
+
+  <!-- pie de pagina -->
+  <footer class="grid-rows-2 bg-black ">
+    <aside class="mx-20 mb-16 pt-16 grid grid-cols-footer items-stretch">
+      
+      <div class="flex flex-col justify-between">
+        <div class="w-[68px] h-[37px]"><img src="asset/LOGO.png" alt="Logo" ></div>
+        <p class="my-6 mr-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <p>@Lorem</p>
+      </div>
+
+      <div>
+        <h5 class="text-[17px] font-medium">About Us</h5>
+        <ul class="mt-6">
+          <li class="p-1"><a href="">Zeux</a></li>
+          <li class="p-1"><a href="">Portfolio</a></li>
+          <li class="p-1"><a href="">Careers</a></li>
+          <li class="p-1"><a href="">Contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="flex flex-col justify-between">
+        <h5 class="text-[17px] font-medium">Contact Us</h5>
+        <p class="mt-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        <p class="mt-2">@+908 89097 890</p>
+      </div>
+
+      <div class="content-end" >
+        <ul class="flex flex-row justify-end">
+          <li><a href=""><img src="icons/social/Fb.png" alt="facebook"></a></li>
+          <li><a href=""><img src="icons/social/Ig.png" alt="Instagram"></a></li>
+          <li><a href=""><img src="icons/social/Tw.png" alt="Twitter"></a></li>
+          <li><a href=""><img src="icons/social/In.png" alt="Linkedin"></a></li>
+        </ul>
+      </div>
+
+
+
+
+    </aside>
+    <article class="divide-x border-t-[1px] border-[#D2D2D2] h-14 w-full text-center content-center">
+      <span class="p-3">Copyright ® 2021 Lorem All rights Rcerved</span>
+    </article>
+  </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .subt{
+        @apply font-semibold text-[25px] mb-14 font-Poppins
+    }
+
+    .subt2{
+        @apply text-[30px] mb-6 font-Poppins
+    }
+
+    .title2 {
+        @apply font-semibold text-[28px] font-Poppins
+    }
+
+    .title {
+        @apply font-bold text-[30px] font-Poppins tracking-wider leading-[180.5%]
+    }
+
+    .colorbg {
+        @apply bg-[#1C140F]
+
+
+    }
+
+    .button {
+        @apply bg-gradient-to-r from-[#FA8305] to-[#FB9E3C] text-[13px]
+    }
+
+    .link {
+        @apply focus:text-link hover:text-link
+    }
+}
+
