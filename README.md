@@ -17,8 +17,14 @@ https://www.figma.com/design/si4kUrFLOFEdNGedH6glsE/Gaming-Platform---Web-Design
 
 ## 👓 Vista previa
 
+
 WEB:
+
 <img width="1251" alt="Home_Web" src="https://github.com/user-attachments/assets/0101c784-20d6-4b5c-905a-3189cfe6d037">
 
+
+
+
 MOBILE:
+
 <img width="621" alt="Home_mobile" src="https://github.com/user-attachments/assets/715a7832-fc6b-40fc-82b8-114851e378c0">
